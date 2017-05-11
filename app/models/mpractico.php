@@ -4,7 +4,7 @@
 
 	use \X\Sys\Model;
 
-	class mHome extends Model{
+	class mPractico extends Model{
 		public function __construct(){
 			parent::__construct();
 			

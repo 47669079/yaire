@@ -6,15 +6,15 @@
 
 
    
-   class Home extends Controller{
+   class Conocenos extends Controller{
    		
 
    		public function __construct($params){
    			parent::__construct($params);
             $this->addData(array(
-               'page'=>'Home'));
-   			$this->model=new \X\App\Models\mHome();
-   			$this->view =new \X\App\Views\vHome($this->dataView,$this->dataTable);    
+               'page'=>'Conocenos'));
+   			$this->model=new \X\App\Models\mConocenos();
+   			$this->view =new \X\App\Views\vConocenos($this->dataView,$this->dataTable);    
                            
                         
                 }

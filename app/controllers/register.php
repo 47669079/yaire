@@ -6,15 +6,15 @@
 
 
    
-   class Home extends Controller{
+   class Register extends Controller{
    		
 
    		public function __construct($params){
    			parent::__construct($params);
             $this->addData(array(
-               'page'=>'Home'));
-   			$this->model=new \X\App\Models\mHome();
-   			$this->view =new \X\App\Views\vHome($this->dataView,$this->dataTable);    
+               'page'=>'Registro'));
+   			$this->model=new \X\App\Models\mRegister();
+   			$this->view =new \X\App\Views\vRegister($this->dataView,$this->dataTable);    
                            
                         
                 }

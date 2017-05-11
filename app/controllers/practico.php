@@ -6,15 +6,15 @@
 
 
    
-   class Home extends Controller{
+   class Practico extends Controller{
    		
 
    		public function __construct($params){
    			parent::__construct($params);
             $this->addData(array(
-               'page'=>'Home'));
-   			$this->model=new \X\App\Models\mHome();
-   			$this->view =new \X\App\Views\vHome($this->dataView,$this->dataTable);    
+               'page'=>'Practico'));
+   			$this->model=new \X\App\Models\mPractico();
+   			$this->view =new \X\App\Views\vPractico($this->dataView,$this->dataTable);    
                            
                         
                 }
