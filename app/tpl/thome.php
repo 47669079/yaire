@@ -9,8 +9,10 @@
 		<img src="<?= 'pub/images/slider/4.png'; ?>" data-thumb="<?= 'pub/images/slider/4.png'; ?>" alt="estudia la teorica totalmente gratis" data-transition="slideInLeft"/>
 		</div>
 	</div>
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="<?= 'pub/js/jquery.nivo.slider.js'; ?>"></script>
+
 	<script type="text/javascript">
 	$(window).load(function() {
 	$('#slider').nivoSlider({
@@ -38,9 +40,8 @@
 
 	});
 	</script>
-<div class="container">
 
-	<p class="body_title">Sabemos que la idea te está molando mucho,<b> ¿quieres más datos? </b> </p>
+<div class="container">
 
 	<div class="grid_mobile">
 		<img src="<?= 'pub/images/gratis.png'; ?>" alt="la teorica es gratis"/>
@@ -86,7 +87,7 @@
 
 	</div>
 
-	<p class="body_title">¿Aún no te hemos convencido?,<b> esperemos que nuestros alumnos sí </b> </p>
+	<p class="body_title">¿Aún no te hemos convencido?,<bold> esperemos que nuestros alumnos sí </bold> </p>
 
 	<div class="opinions_container">
 
@@ -97,15 +98,15 @@
 					<img src="<?= 'pub/images/users/selfie1.jpg'; ?>" alt="alumno de ya ire"/>
 
 					<div>
-						<label id="opinion_name">Antonio Motos Fernandez </label>
-						<label id="opinion_text"> ha opinado de </label>
-						<label id="opinion_company"> Ya iré: </label>
-						<label id="opnion_stars">4.5★</label>
+						<label class="opinion_name">Toni Motos Fernandez </label>
+						<label class="opinion_text"> ha opinado de </label>
+						<label class="opinion_company"> Ya iré: </label>
+						<label class="opnion_stars">4.5★</label>
 					</div>
 
 				</div>
 
-				<label id="opinion_coment">Nunca iba a la autoescuela, con ya iré en cualquier momento puedes sacarte el carnet, ¡me encanta!</label>
+				<label class="opinion_coment">Nunca iba a la autoescuela, con ya iré en cualquier momento puedes sacarte el carnet, ¡me encanta!</label>
 
 		</div>
 
@@ -116,15 +117,15 @@
 					<img src="<?= 'pub/images/users/selfie2.jpg'; ?>" alt="alumno de ya ire"/>
 
 					<div>
-						<label id="opinion_name">Kiko Mata Moros </label>
-						<label id="opinion_text"> ha opinado de </label>
-						<label id="opinion_company"> Ya iré: </label>
-						<label id="opnion_stars">5★</label>
+						<label class="opinion_name">Kiko Mata Moros </label>
+						<label class="opinion_text"> ha opinado de </label>
+						<label class="opinion_company"> Ya iré: </label>
+						<label class="opnion_stars">5★</label>
 					</div>
 
 				</div>
 
-				<label id="opinion_coment">Estaba de Erasmus y no sabía como sacarme el teorico, ¡ya iré ha sido mi salvación!</label>
+				<label class="opinion_coment">Estaba de Erasmus y no sabía como sacarme el teorico, ¡ya iré ha sido mi salvación!</label>
 
 		</div>
 
@@ -135,15 +136,15 @@
 					<img src="<?= 'pub/images/users/selfie3.jpg'; ?>" alt="alumno de ya ire"/>
 
 						<div>
-							<label id="opinion_name">Ana Perez Molina </label>
-							<label id="opinion_text"> ha opinado de </label>
-							<label id="opinion_company"> Ya iré: </label>
-							<label id="opnion_stars">4.2★</label>
+							<label class="opinion_name">Ana Perez Molina </label>
+							<label class="opinion_text"> ha opinado de </label>
+							<label class="opinion_company"> Ya iré: </label>
+							<label class="opnion_stars">4.2★</label>
 						</div>
 
 				</div>
 
-				<label id="opinion_coment">No tenía muy claro si apuntarme porque es un método muy diferente al habitual y estoy gratamente sorprendida, ¡gracias!</label>
+				<label class="opinion_coment">No tenía muy claro si apuntarme porque es un método muy diferente al habitual y estoy gratamente sorprendida, ¡gracias!</label>
 
 		</div>
 
@@ -154,21 +155,22 @@
 					<img src="<?= 'pub/images/users/selfie4.jpg'; ?>" alt="alumno de ya ire"/>
 
 					<div>
-						<label id="opinion_name">Mari Carmen Padial </label>
-						<label id="opinion_text"> ha opinado de </label>
-						<label id="opinion_company"> Ya iré: </label>
-						<label id="opnion_stars">4.8★</label>
+						<label class="opinion_name">Mari Carmen Padial </label>
+						<label class="opinion_text"> ha opinado de </label>
+						<label class="opinion_company"> Ya iré: </label>
+						<label class="opnion_stars">4.8★</label>
 					</div>
 
 				</div>
 
-				<label id="opinion_coment">¡Lo recomendaré a todos mis amigos! Antes parecía que hacía siempre los mismos test y no acababa, esto es una maravilla</label>
+				<label class="opinion_coment">¡Lo recomendaré a todos mis amigos! Antes parecía que hacía siempre los mismos test y no acababa, esto es una maravilla</label>
 
 		</div>
 
 	</div>
 
 </div>
+
 <?php
 	include 'footer_common.php';
 ?>

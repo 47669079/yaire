@@ -7,7 +7,7 @@
 	class mConocenos extends Model{
 		public function __construct(){
 			parent::__construct();
-			
+
 		}
                 //an example....
 		public function getRoles(){
@@ -17,7 +17,7 @@
 			$res=$this->execute();
 			if($res){
 				$result=$this->resultset();
-							
+
 			}else {$result=null;}
 			return $result;
 		}

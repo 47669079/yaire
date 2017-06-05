@@ -12,7 +12,6 @@
 	overflow: hidden;
 	margin: 10px 1%;
 	width: 25%;
-	height: 25%;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
@@ -30,7 +29,7 @@
 	padding: 1em;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 25px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -43,7 +42,7 @@
 .grid figure figcaption,
 .grid figure figcaption > a {
 	position: absolute;
-	top: 25%;
+	top: 1%;
 	left: 0;
 	width: 80%;
 	height: 80%;
@@ -111,7 +110,7 @@ figure.effect-julia p {
 	margin: 0 0 0.25em;
 	padding: 0.4em 1em;
 	background: rgba(255,255,255,0.9);
-	color: #2f3238;
+	color: black;
 	text-transform: none;
 	font-weight: 500;
 	font-size: 75%;

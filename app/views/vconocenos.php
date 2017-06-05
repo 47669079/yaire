@@ -11,6 +11,5 @@
 			$this->output= $this->render('tconocenos.php');
 			
 		}
-		
-		
 	}
+		
